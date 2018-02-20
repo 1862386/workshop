@@ -1,0 +1,9 @@
+fill (#18F2CC);
+size (900,900);
+ellipse (400,400,700,700);
+fill (#1BF218);
+rect (75,300,650,300);
+fill (#BA34F5);
+triangle (100,200,150,500,400,300);
+fill (#BA34F5);
+ellipse (
