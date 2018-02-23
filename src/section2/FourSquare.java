@@ -22,7 +22,7 @@ Robot rob = new Robot();
 		// 5. Set the pen width to 5
 
 		// 6. Use a for loop to repeat steps #7 to #8, four times...
-
+		for(int i = 0; i<4; i++) {
 			// 7. Set the pen color to random
 	
 			// 1. Call the drawSquare() method
@@ -30,7 +30,7 @@ Robot rob = new Robot();
 			// 8. Turn the robot 90 degrees to the right
 
 	}
-
+	}
 	/* 3. Fill in the code to draw a square inside the method below. */
 	void drawSquare() {
 		JOptionPane.showMessageDialog(null, "yay! you called the drawSquare() method!");

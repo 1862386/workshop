@@ -13,16 +13,17 @@ public class FlamingNinjaStar {
 		Robot rob = new Robot();
 		rob.penDown();
 		rob.setSpeed(10);
-		rob.setPenColor(255,215,0)
 		
 
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
-		
+			rob.setX(450);
+			rob.setY(270);
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 
 		// 12. Set the robot speed to 10
 
 		// 13. Use a for loop to repeat all of the code below 25 times
+		for(int i = 0; i<25; i++) {
 
 			// 2. Turn the robot 1/8 of a circle
 		rob.turn(45);
@@ -49,13 +50,13 @@ public class FlamingNinjaStar {
 		rob.move(baseSize);
 			
 			// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
-		
+		//done
 			
 			// 11. Color your ninja star like Figure 2.
-
+			rob.setRandomPenColor();
 		
 	}
 
 }
-
+}
 
